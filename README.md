@@ -6,7 +6,6 @@
 
 ## EXAMPLE
 
-	Example:
 	$ node
 	> var pick = require("pick");
 	> pick.pick([1, 2, 3]);
