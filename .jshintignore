@@ -1,3 +1,8 @@
 node_modules
+<<<<<<< HEAD
+=======
+*.min.js
+*-min.js
+>>>>>>> c8e3206cb87ab7c48ff4048c606ea63310af8db9
 */*.min.js
 */*-min.js
