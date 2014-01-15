@@ -15,6 +15,12 @@ https://github.com/mcandre/node-pick
 
 * [Node.js](http://nodejs.org/)
 
+## Optional
+
+* [Ruby](https://www.ruby-lang.org/) 2+
+* [Bundler](http://bundler.io/)
+* [Guard](http://guardgem.org/)
+
 # INSTALL
 
     $ npm install pick
@@ -24,3 +30,9 @@ https://github.com/mcandre/node-pick
 Keep the code tidy:
 
     $ npm run-script lint
+
+Guard can automatically lint when the code changes:
+
+    $ bundle
+    $ guard -G Guardfile-lint
+    ...
