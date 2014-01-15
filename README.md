@@ -1,17 +1,5 @@
 # pick - A simple library for picking random elements of arrays
 
-# REQUIREMENTS
-
- - [Node.js](http://nodejs.org/)
-
-# DEVELOPMENT
-
-# Linting
-
-Keep the code tidy:
-
-    $ npm run-script lint
-
 # EXAMPLE
 
     $ git clone https://github.com/mcandre/node-pick.git
@@ -20,3 +8,17 @@ Keep the code tidy:
     > var pick = require("pick");
     > pick.pick([1, 2, 3]);
     1
+
+# HOMEPAGE
+
+https://github.com/mcandre/node-pick
+
+# REQUIREMENTS
+
+* [Node.js](http://nodejs.org/)
+
+# LINT
+
+Keep the code tidy:
+
+    $ npm run-script lint
