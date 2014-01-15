@@ -2,8 +2,7 @@
 
 # EXAMPLE
 
-    $ git clone https://github.com/mcandre/node-pick.git
-    $ cd node-pick
+    $ npm install
     $ node
     > var pick = require("pick");
     > pick.pick([1, 2, 3]);
@@ -16,6 +15,10 @@ https://github.com/mcandre/node-pick
 # REQUIREMENTS
 
 * [Node.js](http://nodejs.org/)
+
+# INSTALL
+
+    $ npm install pick
 
 # LINT
 
