@@ -1,5 +1,9 @@
 # pick - A simple library for picking random elements of arrays
 
+# INSTALL
+
+    $ npm install pick
+
 # EXAMPLE
 
     $ node
@@ -20,16 +24,22 @@ https://github.com/mcandre/node-pick
 * [Ruby](https://www.ruby-lang.org/) 2+
 * [Bundler](http://bundler.io/)
 * [Guard](http://guardgem.org/)
+* [aspelllint](https://github.com/mcandre/aspelllint)
 
-# INSTALL
+# DEVELOPMENT
 
-    $ npm install pick
-
-# LINT
+## Lint
 
 Keep the code tidy:
 
     $ npm run-script lint
+
+## Spell Check
+
+    $ aspelllint
+    ...
+
+## Local CI
 
 Guard can automatically lint when the code changes:
 
