@@ -32,12 +32,11 @@ https://github.com/mcandre/node-pick
 
 Keep the code tidy:
 
-    $ npm run-script lint
+    $ grunt lint
 
 ## Spell Check
 
-    $ aspelllint
-    ...
+    $ grunt aspelllint
 
 ## Local CI
 

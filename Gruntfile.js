@@ -1,7 +1,8 @@
 module.exports = function(grunt) {
   grunt.initConfig({
 		exec: {
-      jshint: "jshint ."
+      jshint: "jshint .",
+      aspelllint: "bundle exec aspelllint"
 		}
   });
 
@@ -9,4 +10,5 @@ module.exports = function(grunt) {
 
   grunt.registerTask("default", ["exec:jshint"]);
   grunt.registerTask("lint", ["exec:jshint"]);
+  grunt.registerTask("aspelllint", ["exec:aspelllint"]);
 };
