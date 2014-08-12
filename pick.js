@@ -12,3 +12,11 @@ function pick(arr) {
 }
 
 exports.pick = pick;
+
+function test() {
+  var xs = [1, 2, 3];
+
+  return xs.indexOf(pick(xs)) !== -1;
+}
+
+exports.test = test;
