@@ -7,16 +7,13 @@
     "url": "git://github.com/mcandre/node-pick.git"
   },
   "author": "Andrew Pennebaker <andrew.pennebaker@gmail.com> (http://www.yellosoft.us/)",
-  "main": "pick",
-  "directories": {
-    "lib": "."
-  },
   "scripts": {
     "test": "test()"
   },
   "engines": {
     "node": ">=0.8"
   },
+  "main": "lib/pick.js",
   "scripts": {
     "lint": "jshint ."
   },
