@@ -2,14 +2,18 @@
 
 # INSTALL
 
-    $ npm install pick
+```
+$ npm install pick
+```
 
 # EXAMPLE
 
-    $ node
-    > var pick = require("pick");
-    > pick.pick([1, 2, 3]);
-    1
+```
+$ node
+> var pick = require("pick");
+> pick.pick([1, 2, 3]);
+1
+```
 
 # HOMEPAGE
 
@@ -17,7 +21,7 @@ https://github.com/mcandre/node-pick
 
 # REQUIREMENTS
 
-* [Node.js](http://nodejs.org/)
+* [Node.js](http://nodejs.org/) 0.8+
 
 ## Optional
 
