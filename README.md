@@ -1,9 +1,5 @@
 # pick - A simple library for picking random elements of arrays
 
-# HOMEPAGE
-
-https://github.com/mcandre/node-pick
-
 # EXAMPLE
 
 ```
@@ -21,6 +17,14 @@ $ node
 2
 ...
 ```
+
+# HOMEPAGE
+
+https://github.com/mcandre/node-pick
+
+# NPM
+
+https://www.npmjs.com/package/pick
 
 # INSTALL
 
