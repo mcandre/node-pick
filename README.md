@@ -6,15 +6,23 @@
 $ node
 > var pick = require("pick");
 > pick.pick([1, 2, 3]);
-3
+1
 > pick.pick([1, 2, 3]);
 2
-> pick.pick([1, 2, 3]);
-3
 > pick.pick([1, 2, 3]);
 1
 > pick.pick([1, 2, 3]);
 2
+> pick.pick([1, 2, 3]);
+3
+> pick.pick([1, 2, 3]);
+2
+> pick.pick([1, 2, 3]);
+2
+> pick.pick([1, 2, 3]);
+2
+> pick.pick([1, 2, 3]);
+3
 ...
 ```
 
@@ -25,12 +33,6 @@ https://github.com/mcandre/node-pick
 # NPM
 
 https://www.npmjs.com/package/pick
-
-# INSTALL
-
-```
-$ npm install pick
-```
 
 # REQUIREMENTS
 
