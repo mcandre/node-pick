@@ -1,10 +1,8 @@
 # pick - A simple library for picking random elements of arrays
 
-# INSTALL
+# HOMEPAGE
 
-```
-$ npm install pick
-```
+https://github.com/mcandre/node-pick
 
 # EXAMPLE
 
@@ -12,12 +10,23 @@ $ npm install pick
 $ node
 > var pick = require("pick");
 > pick.pick([1, 2, 3]);
+3
+> pick.pick([1, 2, 3]);
+2
+> pick.pick([1, 2, 3]);
+3
+> pick.pick([1, 2, 3]);
 1
+> pick.pick([1, 2, 3]);
+2
+...
 ```
 
-# HOMEPAGE
+# INSTALL
 
-https://github.com/mcandre/node-pick
+```
+$ npm install pick
+```
 
 # REQUIREMENTS
 
@@ -36,19 +45,25 @@ https://github.com/mcandre/node-pick
 
 Keep the code tidy:
 
-    $ grunt lint
+```
+$ grunt lint
+```
 
 ## Spell Check
 
-    $ grunt aspelllint
+```
+$ grunt aspelllint
+```
 
 ## Local CI
 
 Guard can automatically lint when the code changes:
 
-    $ bundle
-    $ guard -G Guardfile-lint
-    ...
+```
+$ bundle
+$ guard -G Guardfile
+...
+```
 
 ## Git Hooks
 

@@ -7,17 +7,17 @@
     "url": "git://github.com/mcandre/node-pick.git"
   },
   "author": "Andrew Pennebaker <andrew.pennebaker@gmail.com> (http://www.yellosoft.us/)",
-  "scripts": {
-    "test": "test()"
-  },
   "engines": {
     "node": ">=0.8"
   },
   "main": "lib/pick.js",
   "scripts": {
+    "test": "mocha",
     "lint": "jshint ."
   },
-  "dependencies": {},
+  "dependencies": {
+    "mocha": "~1.21.4"
+  },
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-cli": "~0.1.13",
