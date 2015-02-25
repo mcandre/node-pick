@@ -12,8 +12,7 @@
   },
   "main": "lib/pick.js",
   "scripts": {
-    "test": "mocha",
-    "lint": "jshint ."
+    "test": "mocha"
   },
   "dependencies": {
     "mocha": "~1.21.4"
