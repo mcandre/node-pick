@@ -36,7 +36,7 @@ https://www.npmjs.com/package/pick
 
 # REQUIREMENTS
 
-* [Node.js](http://nodejs.org/) 0.11.6+
+* [Node.js](http://nodejs.org/) 6.9.1+
 
 ## Optional
 
