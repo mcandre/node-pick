@@ -72,7 +72,3 @@ $ bundle
 $ guard -G Guardfile
 ...
 ```
-
-## Git Hooks
-
-See `hooks/`.
